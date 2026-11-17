@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resume of Siya Bhatia, Earth and Environment Science student at IISER Bhopal.">
+  <title>Siya Bhatia | Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <span class="logo">Siya Bhatia</span>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills &amp; Coursework</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <figure class="photo">
+        SB
+        <!-- Put your photo at images/photo.jpg -->
+        <img src="C:\Users\hp\Downloads\project\IMG_20251115_113818 (2).png" alt="Portrait of Siya Bhatia" onerror="this.remove()">
+      </figure>
+      <div>
+        <h1>Siya Bhatia</h1>
+        <p class="tagline">Earth &amp; Environment Science student turning climate data into insight</p>
+        <div class="hero-links">
+          <a class="btn" href="projects.html">View my work</a>
+          <a class="btn outline" href="contact.html">Get in touch</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="summary">
+      <h2>About Me</h2>
+      <p>
+        I am a BS-MS student at IISER Bhopal majoring in Earth and Environment Science with a minor in
+        Data Science. I work with large climate datasets using Python to study monsoon rainfall,
+        droughts, heat extremes and hydroclimatic change across India.
+      </p>
+      <p>
+        I am looking to grow as a climate and hydrology , combining statistics, machine
+        learning and field-based understanding to produce work that helps communities adapt to a
+        changing climate.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>BS-MS (Dual Degree)</h3>
+          <p class="meta"><strong>2024 – 2029</strong></p>
+          <p>Indian Institute of Science Education and Research (IISER) Bhopal</p>
+          <ul>
+            <li>Major: Earth and Environment Science</li>
+            <li>Minor: Data Science</li>
+            <li>Pre-major: Data Science, Mathematics, Earth and Environment Science</li>
+            <li>Grade: 7.4 / 10</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Higher Secondary</h3>
+          <p class="meta"><strong>2022 – 2024</strong></p>
+          <p>Delhi Public School, Alwar (Rajasthan)</p>
+          <ul><li>Percentage: 87.8%</li></ul>
+        </article>
+        <article class="card">
+          <h3>Secondary</h3>
+          <p class="meta"><strong>Completed before 2022</strong></p>
+          <p>Silver Oak School, Alwar (Rajasthan)</p>
+          <ul><li>Percentage: 92.2%</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Research Experience</h2>
+
+      <article class="job">
+        <header>
+          <h3>Research Intern, DST Centre of Excellence for Climate Information</h3>
+          <span class="date"><time datetime="2026-05">May 2026</time> – <time datetime="2026-07">July 2026</time></span>
+        </header>
+        <p class="meta">IIT Delhi</p>
+        <ul>
+          <li>Led India's first pan-India tehsil-level (n = 6,667) spatial autocorrelation analysis of southwest monsoon (JJAS) rainfall trends over 41 years (1982–2022), using three independent gridded datasets (MSWEP, IMDAA, IMD).</li>
+          <li>Applied Mann-Kendall tests with Theil-Sen slopes, Benjamini-Hochberg FDR correction, Global Moran's I (0.853–0.869, p &lt; 0.001) and LISA to quantify spatial coherence of trends.</li>
+          <li>Showed cross-dataset robustness: cluster-to-outlier ratios of 33.8:1 (MSWEP) and 30.1:1 (IMD).</li>
+          <li>Processed 42 zip archives of daily IMDAA NetCDF files with xarray, geopandas, rasterio, PySAL/esda and pymannkendall.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <header>
+          <h3>Research Intern, Indian Institute of Science (IISc)</h3>
+          <span class="date"><time datetime="2026-02">Feb 2026</time> – <time datetime="2026-04">Apr 2026</time></span>
+        </header>
+        <ul>
+          <li>Worked on predictive modelling of dangerous heat conditions at specific locations, covering the full pipeline from data processing through predictive modelling.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <header>
+          <h3>Research Intern, Indian Institute of Technology, Indore</h3>
+          <span class="date"><time datetime="2025-12">Dec 2025</time> – <time datetime="2026-01">Jan 2026</time></span>
+        </header>
+        <p class="meta">Project: Hydroclimatic Regime Shifts using Large-Scale Climate Data</p>
+        <ul>
+          <li>Built a multi-decadal (1970–2024) tehsil-year panel from TerraClimate gridded data across zonal aggregations.</li>
+          <li>Computed aridity and evaporative indices and applied statistical summaries to detect long-term regime shifts.</li>
+          <li>Automated the data collection-to-visualisation pipeline in Python (Pandas, NumPy).</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <header>
+          <h3>Research Intern, Azim Premji University</h3>
+          <span class="date"><time datetime="2025-05">May 2025</time> – <time datetime="2025-07">July 2025</time></span>
+        </header>
+        <p>Fieldwork-based research on Alwar's stepwells (see the Projects page).</p>
+      </article>
+
+      <article class="job">
+        <header>
+          <h3>Research Intern, Kyoto University, Japan</h3>
+          <span class="date">Remote</span>
+        </header>
+        <p>Drought propagation in Indian river basins (see the Projects page).</p>
+      </article>
+
+      <article class="job">
+        <header>
+          <h3>Research Intern, Tohoku University, Japan</h3>
+          <span class="date">Remote</span>
+        </header>
+        <p>Climate ensemble member selection methods (see the Projects page).</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Siya Bhatia &middot; IISER Bhopal &middot; <a href="mailto:siya24@iiserb.ac.in">siya24@iiserb.ac.in</a></p>
+  </footer>
+
+</body>
+</html>
